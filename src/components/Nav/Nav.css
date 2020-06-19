@@ -1,0 +1,14 @@
+.Nav {
+	height: 50px;
+}
+
+.Nav.ui.inverted.menu a.item:hover,
+.Nav.ui.inverted.menu a.item.active {
+	background-color: #00FF8B !important;
+	color: #000 !important;
+}
+
+.Nav img {
+	height: 100%;
+	width: auto !important;
+}
