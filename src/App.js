@@ -4,26 +4,32 @@ import './App.css';
 import 'semantic-ui-css/semantic.css';
 
 import ideas from './data/ideas';
+import colors from './data/colors'
+import fonts from './data/fonts'
 
-import Nav from './components/Nav/Nav.js'
 import Controls from './components/Controls/Controls';
 import Idea from './components/Idea/Idea';
+import Colors from './components/Colors/Colors';
+import Fonts from './components/Fonts/Fonts'
 
 function App() {
   const [ idea, setIdea ] = useState(_.sample(ideas))
+  const [ colorPalette, setColorPalette ] = useState(_.sample(colors))
+  const [ families, setFamilies ] = useState(_.sample(fonts))
 
   const refresh = () => {
-    console.log('Refresh');
-    
     setIdea(_.sample(ideas));
+    setColorPalette(_.sample(colors));
+    setFamilies(_.sample(fonts))
   }
 
   return (
-    <Fragment>
-      <Nav />
+    <div className="App">
       <Controls refresh={refresh}/>
       <Idea idea={idea} />
-    </Fragment>
+      <Colors colors={colorPalette} />
+      <Fonts fonts={families} />
+    </div>
   );
 }
 

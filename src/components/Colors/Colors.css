@@ -1,0 +1,11 @@
+.Colors .ui.grid {
+	margin: 30px 0;
+}
+
+.Colors .ui.grid .column {
+	padding: 0;
+}
+
+.Colors .ui.grid .row .column {
+	padding: 20px;
+}
