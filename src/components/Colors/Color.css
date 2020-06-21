@@ -2,3 +2,11 @@
 .Color.ui.inverted.table {
 	background-color: transparent;
 }
+
+.Color.ui.table td {
+	text-align: center !important;
+}
+
+.Color.ui.table td:first {
+	font-weight: bold;
+}

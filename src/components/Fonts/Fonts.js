@@ -12,7 +12,7 @@ function Fonts({ fonts }) {
 				<Header as='h2'>
 					Font Pairing
 				</Header>
-				<Grid columns={2}>
+				<Grid stackable columns={2}>
 					{fonts.map((family, index) => 
 					<Grid.Column key={index} ><Font font={family} /></Grid.Column> )}
 				</Grid>

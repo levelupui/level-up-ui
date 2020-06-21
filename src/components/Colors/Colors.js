@@ -12,7 +12,7 @@ function Colors({ colors }) {
 				<Header as='h2'>
 					Color Palette
 				</Header>
-				<Grid columns={5}>
+				<Grid stackable columns={5}>
 					{ colors.map((color, index) => 
 					<Grid.Column key={index} style={{backgroundColor: color}}>
 						<Color color={color} />
