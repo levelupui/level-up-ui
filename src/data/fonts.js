@@ -2,7 +2,7 @@ const fonts = [
  [ 'Cardo', 'Carrois Gothic SC' ],
  [ 'Playfair Display', 'Roboto' ],
  [ 'Poppins', 'Poppins' ],
- [ 'Francois One', 'Josefine Sans' ],
+ [ 'Francois One', 'Josefin Sans' ],
  [ 'Abril Fatface', 'Montserrat' ],
  [ 'Sacramento', 'Oswald' ],
  [ 'Pinyon Script', 'Montserrat' ],
@@ -16,8 +16,8 @@ const fonts = [
  [ 'Merriweather', 'Ubuntu' ],
  [ 'Prata', 'Montserrat' ],
  [ 'Cabin', 'Open Sans' ],
- [ 'Josefine Sans', 'Dm Sans' ], 
- [ 'Codystar', 'Josefine Slab' ],
+ [ 'Josefin Sans', 'Dm Sans' ], 
+ [ 'Codystar', 'Josefin Slab' ],
  [ 'Cormorant Garamond', 'Raleway' ]
 ]
 
