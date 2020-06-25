@@ -8,13 +8,14 @@
     "@testing-library/user-event": "^7.2.1",
     "color-converter": "^1.4.1",
     "react": "^16.13.1",
+    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
     "react-google-font-loader": "^1.1.0",
     "react-scripts": "3.4.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
   },
-  "homepage": "http://levelupui.github.io/level-up-ui",
+  "homepage": "http://app.levelupui.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
